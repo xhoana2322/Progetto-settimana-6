@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Netflix Clone</title>
+</head>
+<body class="bg-dark mx-5">
+    <!-- Titolo/logo -->
+    <header class="">
+        <nav class="navbar bg-dark">
+              <a class="navbar-brand" href="#">
+                <img src="assets/netflix_logo.png" alt="Netflix logo" width="120" height="54" class="">
+              </a>
+            </div>
+          </nav> 
+    </header>
+
+    <!-- Griglie elementi con avatar + 3 sottosezioni allineate a sx -->
+
+    <div class="container d-flex justify-content-center mt-4">
+        <div class="w-50 text-start d-flex flex-column justify-content-center ">
+            <div>
+                <h1 class="text-white border-bottom border-dark-subtle align-self-start d-flex">Edit Profile</h1>
+            </div>
+    
+            <div class="row py-3">
+                <div class="col-3">
+                    <img src="assets/avatar.png" alt="image kids' profile" width="150">
+                </div>
+                <div class="col-9">
+                    <p class="text-white bg-secondary py-2 px-3 fs-4">Strive Student</p>
+                    <p class="text-white-50 fs-4">Language:</p>
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle fs-5 border border-white rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Spanish</a></li>
+                          <li><a class="dropdown-item" href="#">French</a></li>
+                          <li><a class="dropdown-item" href="#">Italian</a></li>
+                          <li><a class="dropdown-item" href="#">German</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top w-75 py-3 align-self-end">
+                <p class="text-white-50 fs-4">Maturity Settings:</p>
+                <p class="text-uppercase text-white bg-secondary w-50 py-1 text-center fs-5 fw-semibold">all maturity ratings</p>
+                <p class="text-white">Show titles of <span class="fw-bold">all maturity ratings</span> for this profile.</p>
+                <button type="button" class="text-uppercase text-secondary py-2 px-4 bg-dark border border-secondary">edit</button>
+            </div>
+    
+            <div class="border-top w-75 py-3 align-self-end">
+                <p class="text-white-50 fs-4">Autoplay controls</p>
+                <div class="form-check text-white d-flex align-items-center">
+                    <input class="form-check-input bg-dark border border-secondary p-3" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label ms-3" for="flexCheckDefault">
+                      Autoplay next episode in a series on all devices.
+                    </label>
+                </div>
+                <div class="form-check text-white d-flex align-items-center">
+                    <input class="form-check-input bg-dark border border-secondary p-3" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label ms-3" for="flexCheckChecked">
+                      Autoplay previews while browsing on all devices.
+                    </label>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="border-top py-3 mt-3 w-100">
+                <div class="row ">
+                    <div class="col-2">
+                        <button type="button" class="text-uppercase text-black fw-bold fs-5 py-2 px-4 bg-white border border-white">save</button>
+                    </div>
+                    <div class="col-3 ms-3">
+                        <button type="button" class="text-uppercase text-secondary fs-5 py-2 px-4 bg-dark border border-secondary">cancel</button>                    </div>
+                    <div class="col-6">
+                        <button type="button" class="text-uppercase text-secondary fs-5 py-2 px-5 bg-dark border border-secondary">delete profile</button>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="border-top py-3 mt-3 w-100">
+                <button type="button" class="text-uppercase text-black fw-bold fs-5 py-2 px-5 ms-2 me-4 bg-white border border-white">save</button>
+                <button type="button" class="text-uppercase text-secondary fs-5 py-2 px-5 me-4 bg-dark border border-secondary">cancel</button>                 
+                <button type="button" class="text-uppercase text-secondary fs-5 py-2 px-5 me-4 bg-dark border border-secondary">delete profile</button>  
+            </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
